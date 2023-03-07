@@ -21,4 +21,4 @@ const calcValue =(valor, desc, cartao)=>{
 }
 
 
-console.log("O VALOR SERA DE??", calcValue(100, true, true))
+console.log("O VALOR SERA DE??", calcValue(100, true, true));
