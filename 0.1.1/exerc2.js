@@ -1,7 +1,7 @@
 const anos = ['2012', '2010', '2020', '2022' , '2035', '2045'];
 
 const anoPassado  = '2022';
-const menoresAnos =(anoPassado)=>{
+function  menoresAnos (anoPassado){
     let list=[]
     for (let i = 0; i < anos.length; i++){
         if(anos[i]<anoPassado){
@@ -13,7 +13,7 @@ const menoresAnos =(anoPassado)=>{
 
 console.log(menoresAnos('2022'));
 
-const maiorOuIgualAnos =(anoPassado)=>{
+function maiorOuIgualAnos (anoPassado){
     let list=[]
     for (let i = 0; i < anos.length; i++){
         if(anos[i]>=anoPassado){
