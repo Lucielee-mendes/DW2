@@ -18,4 +18,4 @@ function calcValue (valor, conv, cartao){
 }
 
 
-console.log("O VALOR SERA DE??", calcValue(100, true, false));
+console.log("O VALOR SERA DE: ", calcValue(100, true, false));
