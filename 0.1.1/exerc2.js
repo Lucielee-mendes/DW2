@@ -11,7 +11,7 @@ function  menoresAnos (anoPassado){
     return list
 }
 
-console.log(menoresAnos('2022'));
+console.log(menoresAnos());
 
 function maiorOuIgualAnos (anoPassado){
     let list=[]
