@@ -19,10 +19,6 @@ function calcValue (valor, desc, cartao){
     }else{
         return valor
     }
-
-  
-
 }
 
-
-console.log("O VALOR SERA DE??", calcValue(101, true, true))
+console.log("O VALOR SERA DE: ", calcValue(101, true, true))
