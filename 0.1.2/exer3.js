@@ -1,6 +1,6 @@
 const descontoTotal = 100;
 function limiteDesconto (desc){
-    if(des > descontoTotal){
+    if(desc > descontoTotal){
         desc = descontoTotal;
     }
     return desc;
